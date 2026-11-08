@@ -1,0 +1,165 @@
+{
+  "questionnaireId": 6805,
+  "answers": [],
+  "subscribe": null,
+  "rating": 5,
+  "tattleLatitude": null,
+  "tattleLongitude": null,
+  "dateTimeExperiencedLocal": "",
+  "snapshots": [
+    {
+      "snapshotId": 6,
+      "rating": 5,
+      "comment": "",
+      "reasons": [
+        {
+          "reasonsId": 33,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 30,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 31,
+          "impact": 1,
+          "menuItems": null
+        }
+      ]
+    },
+    {
+      "snapshotId": 2,
+      "rating": 5,
+      "comment": "",
+      "reasons": [
+        {
+          "reasonsId": 52,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 9578,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 9573,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 9575,
+          "impact": 1,
+          "menuItems": null
+        }
+      ]
+    },
+    {
+      "snapshotId": 1,
+      "rating": 5,
+      "comment": "",
+      "reasons": [
+        {
+          "reasonsId": 5890,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 2,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 156,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 28,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 9598,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 9577,
+          "impact": 1,
+          "menuItems": null
+        }
+      ]
+    },
+    {
+      "snapshotId": 7,
+      "rating": 5,
+      "comment": "",
+      "reasons": [
+        {
+          "reasonsId": 40,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 55,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 8871,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 42,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 8877,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 9070,
+          "impact": 1,
+          "menuItems": null
+        }
+      ]
+    },
+    {
+      "snapshotId": 54,
+      "rating": 5,
+      "comment": "",
+      "reasons": [
+        {
+          "reasonsId": 8879,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 8878,
+          "impact": 1,
+          "menuItems": null
+        },
+        {
+          "reasonsId": 9576,
+          "impact": 1,
+          "menuItems": null
+        }
+      ]
+    }
+  ],
+  "checkNumber": null,
+  "email": "",
+  "sessionid": "",
+  "locationsId": 66086,
+  "originalLocationsId": null,
+  "tracker": "",
+  "surveyTimeInSeconds": 60,
+  "viewportWidth": 1908,
+  "viewportHeight": 785
+}

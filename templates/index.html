@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tattle Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="top-bar">
+        <h1>Tattle Agent</h1>
+
+        <a class="logout-link" href="/logout">
+            Logout
+        </a>
+    </div>
+
+    <div class="card">
+
+        <h2>Scheduler</h2>
+
+        {% if scheduler.enabled %}
+            <p class="status running">🟢 Running</p>
+        {% else %}
+            <p class="status stopped">🔴 Stopped</p>
+        {% endif %}
+
+        <p>
+            <strong>Hours:</strong>
+            {{ scheduler.start_hour }}:00 -
+            {{ scheduler.end_hour }}:00
+        </p>
+
+        <p>
+            <strong>Status:</strong>
+            {{ scheduler.status }}
+        </p>
+
+        <p>
+            <strong>Next Run:</strong>
+            {{ scheduler.next_run or "Not scheduled" }}
+        </p>
+
+        <p>
+            <strong>Last Run:</strong>
+            {{ scheduler.last_run or "Never" }}
+        </p>
+
+        <p>
+            <strong>Last Result:</strong>
+            {{ scheduler.last_result or "None" }}
+        </p>
+
+        <div class="button-row">
+            <form action="/scheduler/start">
+                <button class="green-button">Start Scheduler</button>
+            </form>
+
+            <form action="/scheduler/stop">
+                <button class="red-button">Stop Scheduler</button>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Manual Controls</h2>
+
+        <div class="button-row">
+            <form action="/rewrite">
+                <button>Run Rewrite</button>
+            </form>
+
+            <form action="/tattle">
+                <button>Run Tattle</button>
+            </form>
+
+            <form action="/run">
+                <button>Run Both</button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

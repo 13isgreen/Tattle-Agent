@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets and configuration
+.env
+.env.*
+*credentials*
+*secret*
+
+# Email lists and generated data
+real_sounding_emails_10000.txt
+test_emails_100.txt
+
+# Logs and local files
+*.log
+.DS_Store

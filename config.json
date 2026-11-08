@@ -1,0 +1,12 @@
+{
+    "password": "heavypear",
+    "scheduler": {
+        "enabled": false,
+        "start_hour": 12,
+        "end_hour": 21,
+        "status": "Stopped",
+        "next_run": null,
+        "last_run": null,
+        "last_result": null
+    }
+}
